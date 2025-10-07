@@ -33,7 +33,7 @@ import ExceptionalReport from "./pages/reportMaster/ExceptionalReport";
 import FeesList from "./pages/feesMaster/FeesList";
 import TaxProfileList from "./pages/TextProfileMaster/TaxProfileList";
 import MealCapture from "./pages/MealCollectionMaster/MealCapture";
-import TexList from "./pages/TextProfileMaster/texList";
+import TexList from "./pages/TextProfileMaster/TexList";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import { useContext } from "react";
