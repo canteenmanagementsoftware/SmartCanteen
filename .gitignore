@@ -8,10 +8,6 @@ yarn-error.log
 .env.local
 .env.*.local
 
-# build / client
-suparadmin/build/
-suparadmin/dist/
-
 # OS
 .DS_Store
 .vscode/

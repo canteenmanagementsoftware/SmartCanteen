@@ -8,7 +8,4 @@ const taxesSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-// optional: faster lookups
-taxesSchema.index({ name: 1 }, { unique: true });
-
 module.exports = mongoose.model('Taxes', taxesSchema); // NOTE: model name 'Taxes'

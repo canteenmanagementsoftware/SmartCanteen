@@ -7,8 +7,5 @@ const applicableSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-// optional: unique index for faster checks
-applicableSchema.index({ name: 1 }, { unique: true });
-
 module.exports = mongoose.model('Applicable', applicableSchema);
 // Model name 'Applicable' => collection: 'applicables' (starts with "applicable")
