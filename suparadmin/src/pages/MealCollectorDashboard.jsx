@@ -66,7 +66,7 @@ const MealCollectorDashboard = () => {
     control: (base) => ({
       ...base,
       backgroundColor: "#f3f4f6",
-      borderColor: "#000000",
+      // borderColor: "#000000",
       borderColor: "2",
       minHeight: 40,
       boxShadow: "none",
