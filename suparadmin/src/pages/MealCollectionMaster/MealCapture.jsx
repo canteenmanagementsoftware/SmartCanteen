@@ -5,7 +5,7 @@ import * as faceapi from "face-api.js";
 import { toast } from "react-toastify";
 import { AuthContext } from "../../context/auth-context";
 import MealHistory from "./MealHistory";
-import MethodOfSelection from "./methodOfSelection";
+import MethodOfSelection from "./MethodOfSelection";
 
 const MealCapture = () => {
   const { user: currentUser } = useContext(AuthContext);
