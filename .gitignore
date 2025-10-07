@@ -1,0 +1,17 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# env
+.env
+.env.local
+.env.*.local
+
+# build / client
+suparadmin/build/
+suparadmin/dist/
+
+# OS
+.DS_Store
+.vscode/
