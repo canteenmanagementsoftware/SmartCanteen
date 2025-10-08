@@ -51,7 +51,8 @@ const DashboardRedirect = () => {
   const { user } = useContext(AuthContext);
 
   if (!user) {
-    return <Navigate to="/product" replace />;
+    // return <Navigate to="/product" replace />;
+    return <ProductIntro/>
   }
 
   const userType = user.userType || user.type || user.role;
@@ -97,7 +98,7 @@ function App() {
             <Route path="/superadmin/register" element={<Register />} />
 
             {/* Product intro (Tailwind page) */}
-            <Route path="/product" element={<ProductIntro />} />
+            <Route path="/" element={<ProductIntro />} />
 
             {/* Superadmin dashboard route */}
             <Route
