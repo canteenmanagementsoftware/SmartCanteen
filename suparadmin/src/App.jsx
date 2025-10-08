@@ -98,7 +98,7 @@ function App() {
             <Route path="/superadmin/register" element={<Register />} />
 
             {/* Product intro (Tailwind page) */}
-            <Route path="/" element={<ProductIntro />} />
+            {/* <Route path="/" element={<ProductIntro />} /> */}
 
             {/* Superadmin dashboard route */}
             <Route
